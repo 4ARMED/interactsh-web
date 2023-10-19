@@ -2,7 +2,6 @@ import React from "react";
 
 import {inject} from "@vercel/analytics";
 import ReactDOM from "react-dom";
-import ReactGA from "react-ga";
 import { HashRouter as Router, Route, Switch, withRouter } from "react-router-dom";
 import "./styles.scss";
 import { CSSTransition, TransitionGroup } from "react-transition-group";
@@ -12,13 +11,6 @@ import TermsPage from "./pages/termsPage";
 import reportWebVitals from './reportWebVitals';
 import { sendToVercelAnalytics } from './vitals';
 
-const trackingId = "UA-165996103-1";
-ReactGA.initialize(trackingId);
-ReactGA.pageview(window.location.pathname + window.location.search);
-ReactGA.set({
-  config: trackingId,
-  js: new Date(),
-});
 inject()
 
 const AnimatedSwitch = withRouter(({ location }) => {
