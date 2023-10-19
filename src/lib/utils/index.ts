@@ -1,11 +1,11 @@
-import * as f from "fp-ts-std/Function";
-import * as ss from "fp-ts-std/String";
 import { pipe, flow } from "fp-ts/function";
 import * as O from "fp-ts/Option";
 import * as RA from "fp-ts/ReadonlyArray";
 import * as R from "fp-ts/Record";
 import * as S from "fp-ts/string";
 import * as T from "fp-ts/Tuple";
+import * as f from "fp-ts-std/Function";
+import * as ss from "fp-ts-std/String";
 
 
 

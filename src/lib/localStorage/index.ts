@@ -1,7 +1,7 @@
-import * as l from "fp-ts-local-storage";
-import { parseO } from "fp-ts-std/JSON";
 import { flow, pipe } from "fp-ts/function";
 import * as O from "fp-ts/Option";
+import * as l from "fp-ts-local-storage";
+import { parseO } from "fp-ts-std/JSON";
 
 import { defaultFilter } from "lib/types/filter";
 import StoredDataS, { StoredData } from "lib/types/storedData";

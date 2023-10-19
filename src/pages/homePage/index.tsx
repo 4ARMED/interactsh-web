@@ -31,11 +31,11 @@ import Tab from "lib/types/tab";
 import View from "lib/types/view";
 import { ThemeName, getTheme } from "theme";
 
+import RequestDetailsWrapper from "./requestDetailsWrapper";
+import RequestsTableWrapper from "./requestsTableWrapper";
 import Header from "../../components/header";
 import TabSwitcher from "../../components/tabSwitcher";
 import { writeStoredData, getStoredData, defaultStoredData } from "../../lib/localStorage";
-import RequestDetailsWrapper from "./requestDetailsWrapper";
-import RequestsTableWrapper from "./requestsTableWrapper";
 
 
 const HomePage = () => {
